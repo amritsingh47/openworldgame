@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Open World Game - Project Presentation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Particle Background -->
+  <div class="particle-bg" id="particles"></div>
+
+  <!-- Slide Counter -->
+  <div class="slide-counter">
+    <span id="current-slide">1</span> / <span id="total-slides">13</span>
+  </div>
+
+  <!-- Presentation Slides -->
+  <div class="presentation-container">
+    <!-- Slide 1: Title -->
+    <div class="slide active">
+      <h1>🎮 OPEN WORLD GAME</h1>
+      <h3>Next-Generation Immersive Gaming Experience</h3>
+      <p class="built-with">
+        Built with <span class="highlight">Unreal Engine 5</span> &amp; <span class="highlight">C++</span>
+      </p>
+      <div class="author-info">
+        <strong>Developed by:</strong> Amrit Singh<br>
+        <strong>University:</strong> DAV Institute of Engineering &amp; Technology<br>
+        <strong>Program:</strong> Bachelor of Computer Applications (2022-2025)
+      </div>
+    </div>
+
+    <!-- Slide 2: Project Overview -->
+    <div class="slide">
+      <h2>🌍 Project Overview</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <h3>🎯 Vision</h3>
+          <p>Create an expansive, immersive open-world experience that gives players complete freedom to explore, interact, and shape their own adventure</p>
+        </div>
+        <div class="feature-card">
+          <h3>🎨 Experience</h3>
+          <p>Seamless world exploration with dynamic weather, day-night cycles, and AI-driven characters that respond to player choices</p>
+        </div>
+        <div class="feature-card">
+          <h3>⚡ Performance</h3>
+          <p>Optimized for smooth gameplay across various hardware configurations while maintaining high visual fidelity</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3: Key Features -->
+    <div class="slide">
+      <h2>✨ Key Features</h2>
+      <div class="tech-grid">
+        <div class="tech-card">
+          <h3>🌅 Dynamic Environment</h3>
+          <p>Real-time day-night cycles, weather systems, and seasonal changes that affect gameplay</p>
+        </div>
+        <div class="tech-card">
+          <h3>🤖 Intelligent AI</h3>
+          <p>NPCs with behavior trees that respond naturally to player actions and environmental changes</p>
+        </div>
+        <div class="tech-card">
+          <h3>📜 Branching Narratives</h3>
+          <p>Quest systems with multiple outcomes based on player choices and play style</p>
+        </div>
+        <div class="tech-card">
+          <h3>🎮 Seamless Exploration</h3>
+          <p>No loading screens, procedural content generation, and physics-based interactions</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 4: Technology Stack -->
+    <div class="slide">
+      <h2>⚙️ Technology Stack</h2>
+      <div class="architecture-diagram">
+        <div class="system-flow">
+          <div class="flow-item">Unreal Engine 5</div>
+          <div class="flow-item">C++ Core</div>
+          <div class="flow-item">Blueprint System</div>
+          <div class="flow-item">Visual Studio</div>
+        </div>
+        <div class="tech-grid">
+          <div class="tech-card">
+            <h3>🎨 Graphics &amp; Rendering</h3>
+            <ul>
+              <li>Lumen Global Illumination</li>
+              <li>Nanite Virtualized Geometry</li>
+              <li>Quixel Megascans Assets</li>
+            </ul>
+          </div>
+          <div class="tech-card">
+            <h3>💻 Development Tools</h3>
+            <ul>
+              <li>Visual Studio IDE</li>
+              <li>Behavior Tree Editor</li>
+              <li>Version Control (Git)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 5: System Architecture -->
+    <div class="slide">
+      <h2>🏗️ System Architecture</h2>
+      <div class="architecture-diagram">
+        <h3>Object-Oriented Design (OOD)</h3>
+        <div class="features-grid">
+          <div class="feature-card">
+            <h3>🎮 Player Systems</h3>
+            <p>Movement, interaction, combat, and progression mechanics with modular component architecture</p>
+          </div>
+          <div class="feature-card">
+            <h3>🤖 AI Framework</h3>
+            <p>Behavior trees and blackboards for complex NPC interactions and decision-making</p>
+          </div>
+          <div class="feature-card">
+            <h3>🌍 World Management</h3>
+            <p>Dynamic loading, environmental systems, and procedural content generation</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 6: Core Game Systems -->
+    <div class="slide">
+      <h2>🎯 Core Game Systems</h2>
+      <div class="tech-grid">
+        <div class="tech-card">
+          <h3>⚔️ Combat System</h3>
+          <p>Real-time combat with hit detection, damage calculation, and dynamic AI responses</p>
+        </div>
+        <div class="tech-card">
+          <h3>📦 Inventory Management</h3>
+          <p>Drag-and-drop interface, item crafting, equipment upgrades, and stat management</p>
+        </div>
+        <div class="tech-card">
+          <h3>📋 Quest Framework</h3>
+          <p>Branching storylines, objective tracking, and world state management</p>
+        </div>
+        <div class="tech-card">
+          <h3>💾 Save System</h3>
+          <p>Comprehensive game state persistence with auto-save and manual save slots</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 7: User Interface -->
+    <div class="slide">
+      <h2>🖥️ User Interface Design</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <h3>🎨 Immersive HUD</h3>
+          <p>Minimalistic, context-aware interface that doesn’t break immersion. Health, stamina, compass, and quest markers integrated seamlessly</p>
+        </div>
+        <div class="feature-card">
+          <h3>📱 Responsive Design</h3>
+          <p>Optimized for both mouse-keyboard and controller input with dynamic scaling and accessibility features</p>
+        </div>
+        <div class="feature-card">
+          <h3>💬 Interactive Dialogues</h3>
+          <p>Cinematic conversation system with branching choices, voice acting support, and subtitle options</p>
+        </div>
+      </div>
+      <p class="built-with">
+        <span class="highlight">Built with UMG (Unreal Motion Graphics)</span> for smooth, animated UI experiences
+      </p>
+    </div>
+
+    <!-- Slide 8: Development Methodology -->
+    <div class="slide">
+      <h2>🔄 Development Process</h2>
+      <div class="system-flow">
+        <div class="flow-item">Requirements Analysis</div>
+        <div class="flow-item">System Design</div>
+        <div class="flow-item">Iterative Development</div>
+        <div class="flow-item">Testing &amp; QA</div>
+        <div class="flow-item">Deployment</div>
+      </div>
+      <div class="tech-grid">
+        <div class="tech-card">
+          <h3>📋 Agile Methodology</h3>
+          <p>Iterative development cycles with regular playtesting and feedback integration</p>
+        </div>
+        <div class="tech-card">
+          <h3>🧪 Testing Strategy</h3>
+          <p>Unit testing, integration testing, performance benchmarking, and regression testing</p>
+        </div>
+        <div class="tech-card">
+          <h3>📊 Quality Assurance</h3>
+          <p>Continuous monitoring, bug tracking, and performance optimization throughout development</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 9: Technical Achievements -->
+    <div class="slide">
+      <h2>🏆 Technical Achievements</h2>
+      <div class="stats-container">
+        <div class="stat-item">
+          <span class="stat-number">60</span>
+          <p>FPS on Mid-Range Hardware</p>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">0</span>
+          <p>Loading Screens in Open World</p>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">∞</span>
+          <p>Procedural Content Possibilities</p>
+        </div>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <h3>⚡ Performance Optimization</h3>
+          <p>Memory-efficient C++ code, smart asset loading, and GPU optimization techniques</p>
+        </div>
+        <div class="feature-card">
+          <h3>🔧 Modular Architecture</h3>
+          <p>Component-based design allowing easy expansion, maintenance, and future content updates</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 10: Challenges & Solutions -->
+    <div class="slide">
+      <h2>⚡ Challenges &amp; Solutions</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <h3>🎯 Challenge: Performance Optimization</h3>
+          <p><strong>Solution:</strong> Implemented LOD systems, culling techniques, and efficient memory management in C++</p>
+        </div>
+        <div class="feature-card">
+          <h3>🎯 Challenge: AI Complexity</h3>
+          <p><strong>Solution:</strong> Used Behavior Trees and state machines for predictable yet dynamic NPC behavior</p>
+        </div>
+        <div class="feature-card">
+          <h3>🎯 Challenge: Seamless World</h3>
+          <p><strong>Solution:</strong> Streaming levels and procedural generation to eliminate loading screens</p>
+        </div>
+        <div class="feature-card">
+          <h3>🎯 Challenge: Save System</h3>
+          <p><strong>Solution:</strong> Implemented robust serialization with data integrity checks and corruption recovery</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 11: Unreal Engine Screenshots -->
+    <div class="slide">
+      <h2>📸 Unreal Engine Screenshots</h2>
+      <p style="margin-bottom: 20px;">Click a thumbnail to view full-screen.</p>
+      <div class="screenshot-grid">
+        <div class="screenshot-card">
+          <img class="thumbnail" src="images/588b93a4-d060-45e0-bfc2-7db006ff8ccc.jpg" data-full="images/588b93a4-d060-45e0-bfc2-7db006ff8ccc.jpg" alt="Unreal Level Map Overview" />
+          <p>Level Map Overview</p>
+        </div>
+        <div class="screenshot-card">
+          <img class="thumbnail" src="images/0685098e-1195-47fb-84e3-3209891cdf3b.jpg" data-full="images/0685098e-1195-47fb-84e3-3209891cdf3b.jpg" alt="Third Person Character Setup" />
+          <p>Third Person Character Setup</p>
+        </div>
+        <div class="screenshot-card">
+          <img class="thumbnail" src="images/224f68e4-39b5-4eba-ad04-1eeefd108988.jpg" data-full="images/224f68e4-39b5-4eba-ad04-1eeefd108988.jpg" alt="Character Blueprint Event Graph" />
+          <p>Character Blueprint Event Graph</p>
+        </div>
+        <div class="screenshot-card">
+          <img class="thumbnail" src="images/78f00659-dc7f-4aad-a882-0040472fcb89.jpg" data-full="images/78f00659-dc7f-4aad-a882-0040472fcb89.jpg" alt="Exterior Level Scene with Car" />
+          <p>Exterior Level Scene with Car</p>
+        </div>
+        <div class="screenshot-card">
+          <img class="thumbnail" src="images/20453cbe-dfb4-43e0-bf94-1411de6a855a.jpg" data-full="images/20453cbe-dfb4-43e0-bf94-1411de6a855a.jpg" alt="Sports Car Model Preview" />
+          <p>Sports Car Model Preview</p>
+        </div>
+        <div class="screenshot-card">
+          <img class="thumbnail" src="images/dbe1933e-7019-4134-9ed5-4c0286fe828c.jpg" data-full="images/dbe1933e-7019-4134-9ed5-4c0286fe828c.jpg" alt="Water Material Preview" />
+          <p>Water Material Preview</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 12: Future Scope -->
+    <div class="slide">
+      <h2>🚀 Future Enhancements</h2>
+      <div class="tech-grid">
+        <div class="tech-card">
+          <h3>👥 Multiplayer Integration</h3>
+          <p>Co-op exploration and PvP combat systems for shared adventures</p>
+        </div>
+        <div class="tech-card">
+          <h3>📱 Cross-Platform Support</h3>
+          <p>Mobile and console adaptations with optimized controls and UI</p>
+        </div>
+        <div class="tech-card">
+          <h3>🛠️ Modding Support</h3>
+          <p>Community tools for creating custom content, maps, and modifications</p>
+        </div>
+        <div class="tech-card">
+          <h3>🧠 Advanced AI</h3>
+          <p>Machine learning integration for more realistic NPC behavior and procedural storytelling</p>
+        </div>
+        <div class="tech-card">
+          <h3>🌐 Live Content</h3>
+          <p>Seasonal events, dynamic world changes, and community-driven storylines</p>
+        </div>
+        <div class="tech-card">
+          <h3>♿ Accessibility</h3>
+          <p>Enhanced accessibility features for players with different abilities</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 13: Credits -->
+    <div class="slide">
+      <h2>🎓 CREDITS</h2>
+      <div class="credits-list">
+        <p><strong>Amrit Singh</strong> (University Roll 2201965) – 3D Model (Car &amp; Girl), Car Integration &amp; World Physics</p>
+        <p><strong>Kartik Sharma</strong> (University Roll 2202014) – Map Design, Node Creation, Real-Life Physics</p>
+        <p><strong>Isha</strong> (University Roll 2202005) – Player Interaction Commands &amp; Integration</p>
+      </div>
+      <p class="thanks-note">
+        <strong>Special Thanks:</strong><br/>
+        Co-Guide: Bhanupriya Ma’am<br/>
+        Interviewer: [Interviewer Name]
+      </p>
+      <p class="final-note">
+        <strong>Thank you for reviewing our project!</strong>
+      </p>
+    </div>
+  </div>
+
+  <!-- Lightbox / Modal Container -->
+  <div id="lightbox-overlay" class="lightbox-overlay">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-img" src="" alt="Full Screen Screenshot" />
+  </div>
+
+  <!-- Navigation Buttons -->
+  <div class="navigation">
+    <button class="nav-btn" onclick="previousSlide()">← Previous</button>
+    <button class="nav-btn" onclick="nextSlide()">Next →</button>
+  </div>
+
+  <!-- JS: Slide Logic, Particles, and Lightbox -->
+  <script>
+    // SLIDE NAVIGATION
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+    const totalSlides = slides.length;
+    const currentCounter = document.getElementById('current-slide');
+    const totalCounter = document.getElementById('total-slides');
+
+    totalCounter.textContent = totalSlides;
+    currentCounter.textContent = currentSlide + 1;
+
+    function showSlide(n) {
+      slides[currentSlide].classList.remove('active');
+      currentSlide = (n + totalSlides) % totalSlides;
+      slides[currentSlide].classList.add('active');
+      currentCounter.textContent = currentSlide + 1;
+    }
+
+    function nextSlide() {
+      showSlide(currentSlide + 1);
+    }
+
+    function previousSlide() {
+      showSlide(currentSlide - 1);
+    }
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'ArrowRight' || e.key === ' ') {
+        nextSlide();
+      } else if (e.key === 'ArrowLeft') {
+        previousSlide();
+      }
+    });
+
+    let touchStartX = 0, touchEndX = 0;
+    document.addEventListener('touchstart', e => {
+      touchStartX = e.changedTouches[0].screenX;
+    });
+    document.addEventListener('touchend', e => {
+      touchEndX = e.changedTouches[0].screenX;
+      const diff = touchStartX - touchEndX;
+      if (Math.abs(diff) > 50) {
+        diff > 0 ? nextSlide() : previousSlide();
+      }
+    });
+
+    // PARTICLE BACKGROUND
+    function createParticles() {
+      const particleContainer = document.getElementById('particles');
+      for (let i = 0; i < 60; i++) {
+        const particle = document.createElement('div');
+        particle.classList.add('particle');
+        particle.style.left = Math.random() * 100 + '%';
+        particle.style.top = Math.random() * 100 + '%';
+        particle.style.animationDelay = Math.random() * 6 + 's';
+        particle.style.animationDuration = (3 + Math.random() * 3) + 's';
+        particleContainer.appendChild(particle);
+      }
+    }
+    createParticles();
+
+    // LIGHTBOX / MODAL FOR SCREENSHOTS
+    const lightboxOverlay = document.getElementById('lightbox-overlay');
+    const lightboxImg = document.querySelector('.lightbox-img');
+    const closeBtn = document.querySelector('.lightbox-close');
+
+    document.querySelectorAll('.thumbnail').forEach(thumbnail => {
+      thumbnail.addEventListener('click', () => {
+        const fullSrc = thumbnail.getAttribute('data-full');
+        lightboxImg.src = fullSrc;
+        lightboxOverlay.classList.add('visible');
+      });
+    });
+
+    closeBtn.addEventListener('click', () => {
+      lightboxOverlay.classList.remove('visible');
+    });
+    lightboxOverlay.addEventListener('click', e => {
+      if (e.target === lightboxOverlay) {
+        lightboxOverlay.classList.remove('visible');
+      }
+    });
+  </script>
+</body>
+</html>
